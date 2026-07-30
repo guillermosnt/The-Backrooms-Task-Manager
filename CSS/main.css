@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../IMAGES/fondo-backrooms.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    transition: all 0.5s;
+}
+
+.titulo h2 {
+    font-size: 50px;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.audio audio {
+    width: 380px;
+    height: 42px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+    transition: 0.3s ease;
+}
+
+.audio audio:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(255, 221, 0, 0.25);
+}
+
+.panel-add {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.panel-add input {
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 14px 28px;
+    padding-right: 200px;
+    background-color: #e2e2e2;
+}
+
+.panel-add input:focus {
+    outline: none;
+}
+
+.panel-add button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #e0bf04;
+    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s;
+}
+
+.panel-add button:hover {
+    background-color: #f3db00;
+    transition: all 0.3s;
+}
+
+.panel-add button:active {
+    transform: scale(0.90);
+}
