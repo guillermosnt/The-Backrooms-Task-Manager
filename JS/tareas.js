@@ -17,8 +17,6 @@ function crearTarea(texto) {
 
     <div class="centro">
 
-
-
         <h3>NO COMPLETADO</h3>
 
     </div>
