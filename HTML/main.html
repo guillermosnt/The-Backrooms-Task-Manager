@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="icon" href="../IMAGES/async_favicon.jpg" type="image/x-icon">
     <title>Async Research Institute</title>
-    
+
 </head>
 
 <!-- Shift + ALT + F para ordenar el código -->
@@ -23,6 +23,8 @@
             </p>
         </div>
 
+        <h2 class="texto-audio">Backrooms (2026) | Background Music | Full OST</h2>
+
         <div class="audio">
             <audio controls>
                 <source src="../AUDIO/Backrooms (2026) _ Background Music _ Full OST [oGec-NtOg9Y].mp3"
@@ -32,13 +34,28 @@
         </div>
 
         <div class="panel-add">
-            <input type="add" placeholder="Inserta aqui la tarea...">
-            <button>Añadir</button>
+            <input id="inputTarea" type="text" placeholder="Inserta aqui la tarea...">
+            <button id="btnAñadir">Añadir</button>
         </div>
 
     </div>
 
+    <div class="contenedor-inferior">
 
+        <div class="tareas">
+            <h2>Tareas añadidas al programa</h2>
+
+            <div id="listado-tareas">
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../JS/tareas.js"></script>
 
 </body>
 
