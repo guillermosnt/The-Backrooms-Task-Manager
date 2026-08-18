@@ -17,7 +17,7 @@ body {
             rgba(15,15,15,.65),
             rgba(0,0,0,.88)
         ),
-        url("../IMAGES/fondo-backrooms.jpg");
+        url("/IMAGES/fondo-backrooms.jpg");
 
     background-size: cover;
     background-position: center;
