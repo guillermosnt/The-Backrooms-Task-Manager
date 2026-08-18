@@ -23,10 +23,6 @@ function crearTarea(texto) {
 
     <div class="botones-derecha">
 
-        <button class="clip">
-        Ver clip
-        </button>
-
         <button class="clip papelera">
         Eliminar
         </button>
@@ -54,12 +50,6 @@ function crearTarea(texto) {
     const botonEliminar = tarea.querySelector(".papelera");
     botonEliminar.addEventListener("click", function () {
         listadoTareas.removeChild(tarea);
-    });
-
-
-    const botonClip = tarea.querySelector(".clip");
-    botonClip.addEventListener("click", function () {
-        alert("¡Clip de la tarea: " + texto + "!");
     });
 
     listadoTareas.appendChild(tarea);
